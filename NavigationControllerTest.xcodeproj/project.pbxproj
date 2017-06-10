@@ -12,6 +12,7 @@
 		E3ADE9601EEB100300F29999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ADE95E1EEB100300F29999 /* Main.storyboard */; };
 		E3ADE9621EEB100300F29999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3ADE9611EEB100300F29999 /* Assets.xcassets */; };
 		E3ADE9651EEB100300F29999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ADE9631EEB100300F29999 /* LaunchScreen.storyboard */; };
+		E3ADE96D1EEBBD2300F29999 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ADE96C1EEBBD2300F29999 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E3ADE9611EEB100300F29999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3ADE9641EEB100300F29999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3ADE9661EEB100300F29999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ADE96C1EEBBD2300F29999 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E3ADE95A1EEB100300F29999 /* AppDelegate.swift */,
 				E3ADE95C1EEB100300F29999 /* ViewController.swift */,
 				E3ADE95E1EEB100300F29999 /* Main.storyboard */,
+				E3ADE96C1EEBBD2300F29999 /* DetailViewController.swift */,
 				E3ADE9611EEB100300F29999 /* Assets.xcassets */,
 				E3ADE9631EEB100300F29999 /* LaunchScreen.storyboard */,
 				E3ADE9661EEB100300F29999 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3ADE96D1EEBBD2300F29999 /* DetailViewController.swift in Sources */,
 				E3ADE95D1EEB100300F29999 /* ViewController.swift in Sources */,
 				E3ADE95B1EEB100300F29999 /* AppDelegate.swift in Sources */,
 			);
