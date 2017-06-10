@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,11 +28,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpZ-Hj-0Wx">
+                                <rect key="frame" x="105" y="394" width="165" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Detail"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="boU-Y6-bIp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OLm-l9-LV0"/>
-                            <constraint firstItem="boU-Y6-bIp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jvL-eH-GDH"/>
+                            <constraint firstItem="qpZ-Hj-0Wx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="89" id="H0e-w6-Mol"/>
+                            <constraint firstItem="boU-Y6-bIp" firstAttribute="centerX" secondItem="qpZ-Hj-0Wx" secondAttribute="centerX" id="PeX-Av-BON"/>
+                            <constraint firstItem="boU-Y6-bIp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VRg-0o-DS4"/>
+                            <constraint firstItem="boU-Y6-bIp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gWE-12-s4M"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qpZ-Hj-0Wx" secondAttribute="bottom" constant="233" id="sRr-i6-sW0"/>
+                            <constraint firstItem="qpZ-Hj-0Wx" firstAttribute="top" secondItem="boU-Y6-bIp" secondAttribute="bottom" constant="50" id="wjt-Tq-m8w"/>
                         </constraints>
                     </view>
                 </viewController>
